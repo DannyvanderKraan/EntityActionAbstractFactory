@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EntityActionAbstractFactory
+{
+    public class PatientAdd : IEntityActionViewModel
+    {
+        public void Operate()
+        {
+            Console.WriteLine("Class: {0}, Method: {1}", nameof(PatientAdd), nameof(Operate));
+        }
+    }
+}
